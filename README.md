@@ -1,5 +1,9 @@
 # Google Mobile Ads
 
+## Summary
+
+When integrating Google Mobile Ads on Android, a runtime error has been observed in debug and release builds. After tapping on an ad while using the app, the device will open a link in a web browser on device. After doing this, the app session will be in an unrecoverable state. The OS does not immediately terminate the application, it is still observable in the app switcher, but logs suggest that the Flutter engine terminates.
+
 ## Flutter Doctor 
 
 ```
