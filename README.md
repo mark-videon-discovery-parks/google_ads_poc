@@ -2,6 +2,7 @@
 
 ## Flutter Doctor 
 
+```
 DP077873:~ mark.videon$ flutter doctor
 Doctor summary (to see all details, run flutter doctor -v):
 [✓] Flutter (Channel stable, 3.29.2, on macOS 15.5 24F74 darwin-arm64, locale en-AU)
@@ -22,6 +23,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 [✓] Network resources
 
 • No issues found!
+```
 
 ## Creating the reproducible example
 
